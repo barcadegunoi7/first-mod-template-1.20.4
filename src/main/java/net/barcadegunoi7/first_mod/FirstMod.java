@@ -17,5 +17,6 @@ public class FirstMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModItemGroup.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
