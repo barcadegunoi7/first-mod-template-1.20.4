@@ -6,6 +6,8 @@
     "first_mod:ruby_ore",
     "first_mod:deepslate_ruby_ore",
     "first_mod:nether_ruby_ore",
-    "first_mod:end_stone_ruby_ore"
+    "first_mod:end_stone_ruby_ore",
+    "first_mod:virus_ore",
+    "first_mod:deepslate_virus_ore"
   ]
 }

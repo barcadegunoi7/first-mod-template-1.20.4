@@ -25,6 +25,16 @@ public class ModItemGroup {
                         entries.add(ModBlocks.End_stone_Ruby_Ore);
                         entries.add(ModBlocks.Nether_Ruby_Ore);
                         entries.add(ModItems.Metal_Detector);
+                        entries.add(ModBlocks.Sound_Block);
+                    }).build());
+
+    public static final ItemGroup Virus_Group = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "virus"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.virus"))
+                    .icon(() -> new ItemStack(ModItems.Virus_Ingot)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.Virus_Ore);
+                        entries.add(ModBlocks.Deepslate_Virus_Ore);
+                        entries.add(ModItems.Virus_Ingot);
+                        entries.add(ModItems.Raw_Virus);
                     }).build());
 
     public static void registerItemGroups() {

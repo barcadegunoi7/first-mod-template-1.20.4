@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "Virus",
+  "ingredient": {
+    "item": "first_mod:raw_virus"
+  },
+  "result": "first_mod:virus_ingot"
+}

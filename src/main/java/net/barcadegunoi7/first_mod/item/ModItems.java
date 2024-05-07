@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item Ruby = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item Raw_Ruby = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item Virus_Ingot = registerItem("virus_ingot", new Item(new FabricItemSettings()));
+    public static final Item Raw_Virus = registerItem("raw_virus", new Item(new FabricItemSettings()));
     public static final Item Metal_Detector = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
