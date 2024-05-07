@@ -1,5 +1,8 @@
 package net.barcadegunoi7.first_mod;
 
+import net.barcadegunoi7.first_mod.block.ModBlocks;
+import net.barcadegunoi7.first_mod.item.ModItemGroup;
+import net.barcadegunoi7.first_mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +15,8 @@ public class FirstMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems();
+		ModItemGroup.registerItemGroups();
+		ModBlocks.registerModBlocks();
 	}
 }
