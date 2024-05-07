@@ -3,6 +3,12 @@
   "item.first_mod.raw_ruby": "Raw Ruby",
   "block.first_mod.ruby_block": "Block Of Ruby",
   "block.first_mod.raw_ruby_block": "Block Of Raw Ruby",
+  "block.first_mod.ruby_ore": "Ruby Ore",
+  "block.first_mod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.first_mod.nether_ruby_ore": "Nether Ruby Ore",
+  "block.first_mod.end_stone_ruby_ore": "End Stone Ruby Ore",
+  "item.first_mod.metal_detector": "Metal Detector",
+
 
   "itemgroup.ruby": "Ruby Group"
 }

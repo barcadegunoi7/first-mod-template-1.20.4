@@ -1,6 +1,7 @@
 package net.barcadegunoi7.first_mod.item;
 
 import net.barcadegunoi7.first_mod.FirstMod;
+import net.barcadegunoi7.first_mod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -13,6 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item Ruby = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item Raw_Ruby = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item Metal_Detector = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(Ruby);
