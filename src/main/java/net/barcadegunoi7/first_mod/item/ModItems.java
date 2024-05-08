@@ -2,6 +2,7 @@ package net.barcadegunoi7.first_mod.item;
 
 import net.barcadegunoi7.first_mod.FirstMod;
 import net.barcadegunoi7.first_mod.item.custom.MetalDetectorItem;
+import net.barcadegunoi7.first_mod.item.custom.RawVirus;
 import net.barcadegunoi7.first_mod.item.custom.VirusIngot;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -16,8 +17,8 @@ public class ModItems {
     public static final Item Ruby = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item Raw_Ruby = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
-    public static final Item Virus_Ingot = registerItem("virus_ingot", new VirusIngot(new FabricItemSettings()));
-    public static final Item Raw_Virus = registerItem("raw_virus", new Item(new FabricItemSettings()));
+    public static final Item Virus_Ingot = registerItem("virus_ingot", new Item(new FabricItemSettings()));
+    public static final Item Raw_Virus = registerItem("raw_virus", new RawVirus(new FabricItemSettings()));
 
     public static final Item Metal_Detector = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 

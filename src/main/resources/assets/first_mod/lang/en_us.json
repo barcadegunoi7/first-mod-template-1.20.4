@@ -1,20 +1,31 @@
 {
   "item.first_mod.ruby": "Ruby",
   "item.first_mod.raw_ruby": "Raw Ruby",
+
   "block.first_mod.ruby_block": "Block Of Ruby",
   "block.first_mod.raw_ruby_block": "Block Of Raw Ruby",
+
   "block.first_mod.ruby_ore": "Ruby Ore",
   "block.first_mod.deepslate_ruby_ore": "Deepslate Ruby Ore",
   "block.first_mod.nether_ruby_ore": "Nether Ruby Ore",
   "block.first_mod.end_stone_ruby_ore": "End Stone Ruby Ore",
+
   "item.first_mod.metal_detector": "Metal Detector",
   "block.first_mod.sound_block": "SoundBlock",
+
   "block.first_mod.virus_ore": "Virus Ore",
   "block.first_mod.deepslate_virus_ore": "Deepslate Virus Ore",
   "item.first_mod.virus_ingot": "Virus Ingot",
   "item.first_mod.raw_virus": "Raw Virus",
+
   "item.first_mod.tomato": "Tomato",
+
   "item.first_mod.coal_briquette": "Coal Briquette",
+
+  "tooltip.first_mod.metal_detector": "Helps you find Valuables underground",
+  "tooltip.first_mod.sound_block": "Makes a little sound when right-clicked",
+  "tooltip.first_mod.raw_virus": "A virus spread by an unknown species",
+  "tooltip.first_mod.virus_ingot": " ",
 
   "itemgroup.ruby": "Ruby Group",
   "itemgroup.virus": "Virus Group",
