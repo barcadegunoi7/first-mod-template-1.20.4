@@ -41,6 +41,8 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.food"))
                     .icon(() -> new ItemStack(ModItems.Tomato)).entries((displayContext, entries) -> {
                         entries.add(ModItems.Tomato);
+                        entries.add(ModItems.Lean_Bucket);
+                        entries.add(ModItems.Blunt);
                     }).build());
 
     public static void registerItemGroups() {

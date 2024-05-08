@@ -1,9 +1,7 @@
 package net.barcadegunoi7.first_mod.item;
 
 import net.barcadegunoi7.first_mod.FirstMod;
-import net.barcadegunoi7.first_mod.item.custom.MetalDetectorItem;
-import net.barcadegunoi7.first_mod.item.custom.RawVirus;
-import net.barcadegunoi7.first_mod.item.custom.VirusIngot;
+import net.barcadegunoi7.first_mod.item.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -25,6 +23,9 @@ public class ModItems {
     public static final Item Tomato = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.Tomato)));
 
     public static final Item Coal_Briquette = registerItem("coal_briquette", new Item(new FabricItemSettings()));
+
+    public static final Item Lean_Bucket = registerItem("lean_bucket", new LeanBucket(new FabricItemSettings().food(ModFoodComponents.Lean_bucket)));
+    public static final Item Blunt = registerItem("blunt", new Blunt(new FabricItemSettings().food(ModFoodComponents.Blunt)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(Ruby);

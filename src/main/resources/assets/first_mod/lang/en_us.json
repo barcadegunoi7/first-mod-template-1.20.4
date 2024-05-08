@@ -27,6 +27,9 @@
   "tooltip.first_mod.raw_virus": "A virus spread by an unknown species",
   "tooltip.first_mod.virus_ingot": " ",
 
+  "item.first_mod.lean_bucket": "Bucket of Lean",
+  "item.first_mod.blunt": "Blunt",
+
   "sounds.first_mod.metal_detector_found_ore": "Metal Detector Jingle",
   "sounds.first_mod.sound_block_break": "Step on Sound Block",
   "sounds.first_mod.sound_block_place": "Place Sound Block",
