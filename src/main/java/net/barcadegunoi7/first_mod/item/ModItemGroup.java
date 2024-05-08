@@ -2,11 +2,9 @@ package net.barcadegunoi7.first_mod.item;
 
 import net.barcadegunoi7.first_mod.FirstMod;
 import net.barcadegunoi7.first_mod.block.ModBlocks;
-import net.barcadegunoi7.first_mod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -26,6 +24,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.Nether_Ruby_Ore);
                         entries.add(ModItems.Metal_Detector);
                         entries.add(ModBlocks.Sound_Block);
+                        entries.add(ModItems.Coal_Briquette);
                     }).build());
 
     public static final ItemGroup Virus_Group = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "virus"),
@@ -35,6 +34,13 @@ public class ModItemGroup {
                         entries.add(ModBlocks.Deepslate_Virus_Ore);
                         entries.add(ModItems.Virus_Ingot);
                         entries.add(ModItems.Raw_Virus);
+                        entries.add(ModItems.Coal_Briquette);
+                    }).build());
+
+    public static final ItemGroup Food_Group = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "tomato"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.food"))
+                    .icon(() -> new ItemStack(ModItems.Tomato)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.Tomato);
                     }).build());
 
     public static void registerItemGroups() {

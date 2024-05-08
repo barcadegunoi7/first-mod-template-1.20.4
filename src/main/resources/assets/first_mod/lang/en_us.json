@@ -13,6 +13,10 @@
   "block.first_mod.deepslate_virus_ore": "Deepslate Virus Ore",
   "item.first_mod.virus_ingot": "Virus Ingot",
   "item.first_mod.raw_virus": "Raw Virus",
+  "item.first_mod.tomato": "Tomato",
+  "item.first_mod.coal_briquette": "Coal Briquette",
 
-  "itemgroup.ruby": "Ruby Group"
+  "itemgroup.ruby": "Ruby Group",
+  "itemgroup.virus": "Virus Group",
+  "itemgroup.food": "Food Group"
 }

@@ -1,10 +1,12 @@
 package net.barcadegunoi7.first_mod;
 
 import net.barcadegunoi7.first_mod.block.ModBlocks;
+import net.barcadegunoi7.first_mod.item.ModFuelComponents;
 import net.barcadegunoi7.first_mod.item.ModItemGroup;
 import net.barcadegunoi7.first_mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,5 +20,7 @@ public class FirstMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroup.registerItemGroups();
 		ModBlocks.registerModBlocks();
+
+		ModFuelComponents.registerFuelComponents();
 	}
 }
