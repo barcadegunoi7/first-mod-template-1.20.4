@@ -27,6 +27,13 @@
   "tooltip.first_mod.raw_virus": "A virus spread by an unknown species",
   "tooltip.first_mod.virus_ingot": " ",
 
+  "sounds.first_mod.metal_detector_found_ore": "Metal Detector Jingle",
+  "sounds.first_mod.sound_block_break": "Step on Sound Block",
+  "sounds.first_mod.sound_block_place": "Place Sound Block",
+  "sounds.first_mod.sound_block_hit":  "Hit Sound Block",
+  "sounds.first_mod.sound_block_fall":  "Fall on Sound Block",
+  "sounds.first_mod.sound_block_step": "Step on Sound Block",
+
   "itemgroup.ruby": "Ruby Group",
   "itemgroup.virus": "Virus Group",
   "itemgroup.food": "Food Group"

@@ -2,6 +2,7 @@ package net.barcadegunoi7.first_mod.block;
 
 import net.barcadegunoi7.first_mod.FirstMod;
 import net.barcadegunoi7.first_mod.block.custom.SoundBlock;
+import net.barcadegunoi7.first_mod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -23,7 +24,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.SLIME)));
 
     public static final Block Sound_Block = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK).sounds(BlockSoundGroup.SCULK_SENSOR)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK).sounds(ModSounds.Sound_Block_Sounds)));
 
     public static final Block Virus_Ore = registerBlock("virus_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.SCULK_SENSOR)));
