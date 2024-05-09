@@ -17,6 +17,9 @@ public class Blunt extends Item {
 
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
+        if(!user.getWorld().isClient()) {
+            user.playSound(ModSounds.Metal_Detector_Found_Ore, 1f, 1f);
+        }
         return super.finishUsing(stack, world, user);
     }
 }
