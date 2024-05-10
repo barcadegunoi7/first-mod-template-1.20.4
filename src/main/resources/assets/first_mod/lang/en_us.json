@@ -29,6 +29,7 @@
 
   "item.first_mod.lean_bucket": "Bucket of Lean",
   "item.first_mod.blunt": "Blunt",
+  "sounds.first_mod.bag_un_blunt": "Blunt Smoked",
 
   "sounds.first_mod.metal_detector_found_ore": "Metal Detector Jingle",
   "sounds.first_mod.sound_block_break": "Step on Sound Block",

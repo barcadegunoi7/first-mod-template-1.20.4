@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Deepslate_Ruby_Ore);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Nether_Ruby_Ore);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.End_stone_Ruby_Ore);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sound_Block);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Virus_Ore);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Deepslate_Virus_Ore);

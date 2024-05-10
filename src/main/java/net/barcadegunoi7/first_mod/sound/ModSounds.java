@@ -17,6 +17,8 @@ public class ModSounds {
     public static final SoundEvent Sound_Block_Fall = registerSoundEvent("sound_block_fall");
     public static final SoundEvent Sound_Block_Step = registerSoundEvent("sound_block_step");
 
+    public static final SoundEvent Blunt_Smoked = registerSoundEvent("bag_un_blunt");
+
     public static final BlockSoundGroup Sound_Block_Sounds = new BlockSoundGroup(1f, 4f,
             ModSounds.Sound_Block_Break, ModSounds.Sound_Block_Step, ModSounds.Sound_Block_Place,
             ModSounds.Sound_Block_Hit, ModSounds.Sound_Block_Fall);

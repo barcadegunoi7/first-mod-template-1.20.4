@@ -34,5 +34,11 @@
     "sounds": [
       "first_mod:sound_block_step"
     ]
+  },
+  "bag_un_blunt": {
+    "subtitle": "sounds.first_mod.bag_un_blunt",
+    "sounds": [
+      "first_mod:bag_un_blunt"
+    ]
   }
 }
