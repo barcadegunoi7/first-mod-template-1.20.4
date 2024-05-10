@@ -13,36 +13,44 @@ import net.minecraft.util.Identifier;
 public class ModItemGroup {
     public static final ItemGroup Ruby_Group = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "ruby"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
-                    .icon(() -> new ItemStack(ModItems.Ruby)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.Ruby);
-                        entries.add(ModItems.Raw_Ruby);
-                        entries.add(ModBlocks.Ruby_Block);
-                        entries.add(ModBlocks.Raw_Ruby_Block);
-                        entries.add(ModBlocks.Ruby_Ore);
-                        entries.add(ModBlocks.Deepslate_Ruby_Ore);
-                        entries.add(ModBlocks.End_stone_Ruby_Ore);
-                        entries.add(ModBlocks.Nether_Ruby_Ore);
-                        entries.add(ModItems.Metal_Detector);
-                        entries.add(ModBlocks.Sound_Block);
-                        entries.add(ModItems.Coal_Briquette);
+                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.RUBY);
+                        entries.add(ModItems.RAW_RUBY);
+                        entries.add(ModBlocks.RUBY_BLOCK);
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_RUBY_ORE);
+                        entries.add(ModBlocks.END_STONE_RUBY_ORE);
+                        entries.add(ModBlocks.NETHER_RUBY_ORE);
+                        entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModItems.COAL_BRIQUETTE);
+                        entries.add(ModBlocks.RUBY_STAIRS);
+                        entries.add(ModBlocks.RUBY_SLAB);
+                        entries.add(ModBlocks.RUBY_BUTTON);
+                        entries.add(ModBlocks.RUBY_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RUBY_FENCE);
+                        entries.add(ModBlocks.RUBY_FENCE_GATE);
+                        entries.add(ModBlocks.RUBY_WALL);
+                        entries.add(ModBlocks.RUBY_DOOR);
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
                     }).build());
 
     public static final ItemGroup Virus_Group = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "virus"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.virus"))
-                    .icon(() -> new ItemStack(ModItems.Virus_Ingot)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.Virus_Ore);
-                        entries.add(ModBlocks.Deepslate_Virus_Ore);
-                        entries.add(ModItems.Virus_Ingot);
-                        entries.add(ModItems.Raw_Virus);
-                        entries.add(ModItems.Coal_Briquette);
+                    .icon(() -> new ItemStack(ModItems.VIRUS_INGOT)).entries((displayContext, entries) -> {
+                        entries.add(ModBlocks.VIRUS_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_VIRUS_ORE);
+                        entries.add(ModItems.VIRUS_INGOT);
+                        entries.add(ModItems.RAW_VIRUS);
                     }).build());
 
     public static final ItemGroup Food_Group = Registry.register(Registries.ITEM_GROUP, new Identifier(FirstMod.MOD_ID, "tomato"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.food"))
-                    .icon(() -> new ItemStack(ModItems.Tomato)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.Tomato);
-                        entries.add(ModItems.Lean_Bucket);
-                        entries.add(ModItems.Blunt);
+                    .icon(() -> new ItemStack(ModItems.TOMATO)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.LEAN_BUCKET);
+                        entries.add(ModItems.BLUNT);
                     }).build());
 
     public static void registerItemGroups() {

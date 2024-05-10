@@ -10,6 +10,16 @@
   "block.first_mod.nether_ruby_ore": "Nether Ruby Ore",
   "block.first_mod.end_stone_ruby_ore": "End Stone Ruby Ore",
 
+  "block.first_mod.ruby_stairs": "Ruby Stairs",
+  "block.first_mod.ruby_slab": "Ruby Slab",
+  "block.first_mod.ruby_button": "Ruby Button",
+  "block.first_mod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.first_mod.ruby_fence": "Ruby Fence",
+  "block.first_mod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.first_mod.ruby_wall": "Ruby Wall",
+  "block.first_mod.ruby_door": "Ruby Door",
+  "block.first_mod.ruby_trapdoor": "Ruby Trapdoor",
+
   "item.first_mod.metal_detector": "Metal Detector",
   "block.first_mod.sound_block": "SoundBlock",
 

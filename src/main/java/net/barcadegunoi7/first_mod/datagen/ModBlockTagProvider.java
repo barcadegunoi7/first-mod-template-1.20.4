@@ -20,7 +20,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ModTags.Blocks.Metal_Detector_Detectable_Blocks)
-                .add(ModBlocks.Ruby_Ore)
+                .add(ModBlocks.RUBY_ORE)
                 .forceAddTag(BlockTags.COAL_ORES)
                 .forceAddTag(BlockTags.COPPER_ORES)
                 .forceAddTag(BlockTags.IRON_ORES)
@@ -31,31 +31,56 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.EMERALD_ORES);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.Raw_Ruby_Block)
-                .add(ModBlocks.Ruby_Ore)
-                .add(ModBlocks.Ruby_Block)
-                .add(ModBlocks.Nether_Ruby_Ore)
-                .add(ModBlocks.Deepslate_Ruby_Ore)
-                .add(ModBlocks.End_stone_Ruby_Ore)
-                .add(ModBlocks.Sound_Block)
-                .add(ModBlocks.Virus_Ore)
-                .add(ModBlocks.Deepslate_Virus_Ore);
+                .add(ModBlocks.RAW_RUBY_BLOCK)
+                .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.NETHER_RUBY_ORE)
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ModBlocks.END_STONE_RUBY_ORE)
+                .add(ModBlocks.SOUND_BLOCK)
+                .add(ModBlocks.VIRUS_ORE)
+                .add(ModBlocks.DEEPSLATE_VIRUS_ORE)
+                .add(ModBlocks.RUBY_STAIRS)
+                .add(ModBlocks.RUBY_SLAB)
+                .add(ModBlocks.RUBY_BUTTON)
+                .add(ModBlocks.RUBY_PRESSURE_PLATE)
+                .add(ModBlocks.RUBY_FENCE)
+                .add(ModBlocks.RUBY_FENCE_GATE)
+                .add(ModBlocks.RUBY_WALL)
+                .add(ModBlocks.RUBY_DOOR)
+                .add(ModBlocks.RUBY_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.Ruby_Ore)
-                .add(ModBlocks.Deepslate_Ruby_Ore)
-                .add(ModBlocks.Ruby_Block)
-                .add(ModBlocks.Raw_Ruby_Block)
-                .add(ModBlocks.Sound_Block)
-                .add(ModBlocks.Virus_Ore)
-                .add(ModBlocks.Deepslate_Virus_Ore);
+                .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.DEEPSLATE_RUBY_ORE)
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.RAW_RUBY_BLOCK)
+                .add(ModBlocks.SOUND_BLOCK)
+                .add(ModBlocks.VIRUS_ORE)
+                .add(ModBlocks.DEEPSLATE_VIRUS_ORE)
+                .add(ModBlocks.RUBY_STAIRS)
+                .add(ModBlocks.RUBY_SLAB)
+                .add(ModBlocks.RUBY_BUTTON)
+                .add(ModBlocks.RUBY_PRESSURE_PLATE)
+                .add(ModBlocks.RUBY_FENCE)
+                .add(ModBlocks.RUBY_FENCE_GATE)
+                .add(ModBlocks.RUBY_WALL)
+                .add(ModBlocks.RUBY_DOOR)
+                .add(ModBlocks.RUBY_TRAPDOOR);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(ModBlocks.Nether_Ruby_Ore);
+                .add(ModBlocks.NETHER_RUBY_ORE);
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level_4")))
-                .add(ModBlocks.End_stone_Ruby_Ore);
+                .add(ModBlocks.END_STONE_RUBY_ORE);
+
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.RUBY_FENCE);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.RUBY_FENCE_GATE);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.RUBY_WALL);
     }
 }

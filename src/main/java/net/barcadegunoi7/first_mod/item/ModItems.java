@@ -12,24 +12,24 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item Ruby = registerItem("ruby", new Item(new FabricItemSettings()));
-    public static final Item Raw_Ruby = registerItem("raw_ruby", new Item(new FabricItemSettings()));
+    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
-    public static final Item Virus_Ingot = registerItem("virus_ingot", new Item(new FabricItemSettings()));
-    public static final Item Raw_Virus = registerItem("raw_virus", new RawVirus(new FabricItemSettings()));
+    public static final Item VIRUS_INGOT = registerItem("virus_ingot", new Item(new FabricItemSettings()));
+    public static final Item RAW_VIRUS = registerItem("raw_virus", new RawVirus(new FabricItemSettings()));
 
-    public static final Item Metal_Detector = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+    public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
 
-    public static final Item Tomato = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.Tomato)));
+    public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.Tomato)));
 
-    public static final Item Coal_Briquette = registerItem("coal_briquette", new Item(new FabricItemSettings()));
+    public static final Item COAL_BRIQUETTE = registerItem("coal_briquette", new Item(new FabricItemSettings()));
 
-    public static final Item Lean_Bucket = registerItem("lean_bucket", new LeanBucket(new FabricItemSettings().food(ModFoodComponents.Lean_bucket)));
-    public static final Item Blunt = registerItem("blunt", new Blunt(new FabricItemSettings().food(ModFoodComponents.Blunt)));
+    public static final Item LEAN_BUCKET = registerItem("lean_bucket", new LeanBucket(new FabricItemSettings().food(ModFoodComponents.Lean_bucket)));
+    public static final Item BLUNT = registerItem("blunt", new Blunt(new FabricItemSettings().food(ModFoodComponents.Blunt)));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
-        entries.add(Ruby);
-        entries.add(Raw_Ruby);
+        entries.add(RUBY);
+        entries.add(RAW_RUBY);
     }
 
     private static Item registerItem(String name, Item item) {

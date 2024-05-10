@@ -24,17 +24,27 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.Ruby_Block);
-        addDrop(ModBlocks.Raw_Ruby_Block);
-        addDrop(ModBlocks.Sound_Block);
+        addDrop(ModBlocks.RUBY_BLOCK);
+        addDrop(ModBlocks.RAW_RUBY_BLOCK);
+        addDrop(ModBlocks.SOUND_BLOCK);
 
-        addDrop(ModBlocks.Ruby_Ore, copperLikeOreDrops(ModBlocks.Ruby_Ore, ModItems.Raw_Ruby));
-        addDrop(ModBlocks.Deepslate_Ruby_Ore, copperLikeOreDrops(ModBlocks.Deepslate_Ruby_Ore, ModItems.Raw_Ruby));
-        addDrop(ModBlocks.Nether_Ruby_Ore, copperLikeOreDrops(ModBlocks.Nether_Ruby_Ore, ModItems.Raw_Ruby));
-        addDrop(ModBlocks.End_stone_Ruby_Ore, copperLikeOreDrops(ModBlocks.End_stone_Ruby_Ore, ModItems.Raw_Ruby));
+        addDrop(ModBlocks.RUBY_STAIRS);
+        addDrop(ModBlocks.RUBY_SLAB, slabDrops(ModBlocks.RUBY_SLAB));
+        addDrop(ModBlocks.RUBY_BUTTON);
+        addDrop(ModBlocks.RUBY_PRESSURE_PLATE);
+        addDrop(ModBlocks.RUBY_FENCE_GATE);
+        addDrop(ModBlocks.RUBY_FENCE);
+        addDrop(ModBlocks.RUBY_WALL);
+        addDrop(ModBlocks.RUBY_DOOR, doorDrops(ModBlocks.RUBY_DOOR));
+        addDrop(ModBlocks.RUBY_TRAPDOOR);
 
-        addDrop(ModBlocks.Virus_Ore, oreDrops(ModBlocks.Virus_Ore, ModItems.Raw_Virus));
-        addDrop(ModBlocks.Deepslate_Virus_Ore, oreDrops(ModBlocks.Deepslate_Virus_Ore, ModItems.Raw_Virus));
+        addDrop(ModBlocks.RUBY_ORE, copperLikeOreDrops(ModBlocks.RUBY_ORE, ModItems.RAW_RUBY));
+        addDrop(ModBlocks.DEEPSLATE_RUBY_ORE, copperLikeOreDrops(ModBlocks.DEEPSLATE_RUBY_ORE, ModItems.RAW_RUBY));
+        addDrop(ModBlocks.NETHER_RUBY_ORE, copperLikeOreDrops(ModBlocks.NETHER_RUBY_ORE, ModItems.RAW_RUBY));
+        addDrop(ModBlocks.END_STONE_RUBY_ORE, copperLikeOreDrops(ModBlocks.END_STONE_RUBY_ORE, ModItems.RAW_RUBY));
+
+        addDrop(ModBlocks.VIRUS_ORE, oreDrops(ModBlocks.VIRUS_ORE, ModItems.RAW_VIRUS));
+        addDrop(ModBlocks.DEEPSLATE_VIRUS_ORE, oreDrops(ModBlocks.DEEPSLATE_VIRUS_ORE, ModItems.RAW_VIRUS));
 
 
     }

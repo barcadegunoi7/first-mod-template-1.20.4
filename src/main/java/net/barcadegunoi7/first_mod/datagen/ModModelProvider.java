@@ -15,31 +15,41 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Ruby_Block);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Raw_Ruby_Block);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Ruby_Ore);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Deepslate_Ruby_Ore);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Nether_Ruby_Ore);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.End_stone_Ruby_Ore);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Sound_Block);
+        BlockStateModelGenerator.BlockTexturePool rubyPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RUBY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_RUBY_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RUBY_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RUBY_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NETHER_RUBY_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_STONE_RUBY_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUND_BLOCK);
 
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Virus_Ore);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.Deepslate_Virus_Ore);
+        rubyPool.stairs(ModBlocks.RUBY_STAIRS);
+        rubyPool.slab(ModBlocks.RUBY_SLAB);
+        rubyPool.button(ModBlocks.RUBY_BUTTON);
+        rubyPool.pressurePlate(ModBlocks.RUBY_PRESSURE_PLATE);
+        rubyPool.fence(ModBlocks.RUBY_FENCE);
+        rubyPool.fenceGate(ModBlocks.RUBY_FENCE_GATE);
+        rubyPool.wall(ModBlocks.RUBY_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VIRUS_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_VIRUS_ORE);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(ModItems.Ruby, Models.GENERATED);
-        itemModelGenerator.register(ModItems.Raw_Ruby, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_RUBY, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.Tomato, Models.GENERATED);
-        itemModelGenerator.register(ModItems.Coal_Briquette, Models.GENERATED);
-        itemModelGenerator.register(ModItems.Metal_Detector, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COAL_BRIQUETTE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.METAL_DETECTOR, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.Virus_Ingot, Models.GENERATED);
-        itemModelGenerator.register(ModItems.Raw_Virus, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VIRUS_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_VIRUS, Models.GENERATED);
 
-        itemModelGenerator.register(ModItems.Lean_Bucket, Models.GENERATED);
-        itemModelGenerator.register(ModItems.Blunt, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAN_BUCKET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BLUNT, Models.GENERATED);
     }
 }
