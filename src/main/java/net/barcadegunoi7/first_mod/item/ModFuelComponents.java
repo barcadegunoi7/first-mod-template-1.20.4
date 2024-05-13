@@ -8,7 +8,7 @@ public class ModFuelComponents {
     public static void registerFuelComponents() {
         FirstMod.LOGGER.info("Registering Fuel Items Components" +FirstMod.MOD_ID);
 
-        FuelRegistry.INSTANCE.add(ModItems.Coal_Briquette, 200);
+        FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 
     }
 }

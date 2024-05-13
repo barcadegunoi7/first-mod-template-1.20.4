@@ -25,7 +25,7 @@ public class MetalDetectorItem extends Item {
 
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
-        if(context.getWorld().isClient()) {
+        if(!context.getWorld().isClient()) {
             BlockPos positionClicked = context.getBlockPos();
             PlayerEntity player = context.getPlayer();
             boolean foundBlock = false;
@@ -37,7 +37,7 @@ public class MetalDetectorItem extends Item {
                     outputValuableCoordinates(positionClicked.down(i), player, state.getBlock());
                     foundBlock = true;
 
-                    context.getWorld().playSound(player, positionClicked, ModSounds.Metal_Detector_Found_Ore,
+                    context.getWorld().playSound(null, positionClicked, ModSounds.METAL_DETECTOR_FOUND_ORE,
                             SoundCategory.BLOCKS, 1f, 1f );
 
                     break;

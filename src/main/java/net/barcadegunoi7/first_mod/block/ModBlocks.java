@@ -22,11 +22,11 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.SLIME)));
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK).sounds(ModSounds.Sound_Block_Sounds)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.NOTE_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
     public static final Block VIRUS_ORE = registerBlock("virus_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.SCULK_SENSOR)));
-    public static final Block DEEPSLATE_VIRUS_ORE = registerBlock("deepslate_VIRUS_ore",
+    public static final Block DEEPSLATE_VIRUS_ORE = registerBlock("deepslate_virus_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_IRON_ORE).sounds(BlockSoundGroup.SCULK_SENSOR)));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",

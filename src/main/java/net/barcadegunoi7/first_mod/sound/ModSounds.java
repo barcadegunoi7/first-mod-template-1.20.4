@@ -9,19 +9,20 @@ import net.minecraft.util.Identifier;
 
 public class ModSounds {
 
-    public static final SoundEvent Metal_Detector_Found_Ore = registerSoundEvent("metal_detector_found_ore");
+    public static final SoundEvent METAL_DETECTOR_FOUND_ORE = registerSoundEvent("metal_detector_found_ore");
 
-    public static final SoundEvent Sound_Block_Break = registerSoundEvent("sound_block_break");
-    public static final SoundEvent Sound_Block_Place = registerSoundEvent("sound_block_place");
-    public static final SoundEvent Sound_Block_Hit = registerSoundEvent("sound_block_hit");
-    public static final SoundEvent Sound_Block_Fall = registerSoundEvent("sound_block_fall");
-    public static final SoundEvent Sound_Block_Step = registerSoundEvent("sound_block_step");
+    public static final SoundEvent SOUND_BLOCK_BREAK = registerSoundEvent("sound_block_break");
+    public static final SoundEvent SOUND_BLOCK_PLACE = registerSoundEvent("sound_block_place");
+    public static final SoundEvent SOUND_BLOCK_HIT = registerSoundEvent("sound_block_hit");
+    public static final SoundEvent SOUND_BLOCK_FALL = registerSoundEvent("sound_block_fall");
+    public static final SoundEvent SOUND_BLOCK_STEP = registerSoundEvent("sound_block_step");
 
-    public static final SoundEvent Blunt_Smoked = registerSoundEvent("bag_un_blunt");
+    public static final SoundEvent BLUNT_SMOKED = registerSoundEvent("bag_un_blunt");
+    public static final SoundEvent FLATBED_FREESTYLE = registerSoundEvent("flatbed_freestyle");
 
-    public static final BlockSoundGroup Sound_Block_Sounds = new BlockSoundGroup(1f, 4f,
-            ModSounds.Sound_Block_Break, ModSounds.Sound_Block_Step, ModSounds.Sound_Block_Place,
-            ModSounds.Sound_Block_Hit, ModSounds.Sound_Block_Fall);
+    public static final BlockSoundGroup SOUND_BLOCK_SOUNDS = new BlockSoundGroup(1f, 4f,
+            ModSounds.SOUND_BLOCK_BREAK, ModSounds.SOUND_BLOCK_STEP, ModSounds.SOUND_BLOCK_PLACE,
+            ModSounds.SOUND_BLOCK_HIT, ModSounds.SOUND_BLOCK_FALL);
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(FirstMod.MOD_ID, name);
