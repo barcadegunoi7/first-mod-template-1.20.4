@@ -24,6 +24,17 @@
   "item.first_mod.ruby_staff": "Ruby Staff",
   "block.first_mod.sound_block": "SoundBlock",
 
+  "item.first_mod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.first_mod.ruby_axe": "Ruby Axe",
+  "item.first_mod.ruby_shovel": "Ruby Shovel",
+  "item.first_mod.ruby_sword": "Ruby Sword",
+  "item.first_mod.ruby_hoe": "Ruby Hoe",
+
+  "item.first_mod.ruby_helmet": "Ruby Helmet",
+  "item.first_mod.ruby_chestplate": "Ruby Chestplate",
+  "item.first_mod.ruby_leggings": "Ruby Leggings",
+  "item.first_mod.ruby_boots": "Ruby Boots",
+
   "block.first_mod.virus_ore": "Virus Ore",
   "block.first_mod.deepslate_virus_ore": "Deepslate Virus Ore",
   "item.first_mod.virus_ingot": "Virus Ingot",

@@ -1,5 +1,6 @@
 package net.barcadegunoi7.first_mod.datagen;
 
+import net.barcadegunoi7.first_mod.FirstMod;
 import net.barcadegunoi7.first_mod.block.ModBlocks;
 import net.barcadegunoi7.first_mod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -38,38 +39,37 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("PPP")
                 .input('P', ItemTags.PLANKS)
                 .input('R', ModItems.RUBY)
-                .criterion(hasItem(Items.STONE), conditionsFromItem(Items.STONE))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.RAW_RUBY)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.SOUND_BLOCK)));
 
         createStairsRecipe(ModBlocks.RUBY_STAIRS, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_STAIRS)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.RUBY_STAIRS)));
 
         createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_SLAB, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_SLAB)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.RUBY_SLAB)));
 
-        createPressurePlateRecipe(RecipeCategory.MISC, ModBlocks.RUBY_PRESSURE_PLATE, Ingredient.ofItems(ModItems.RUBY))
+        createPressurePlateRecipe(RecipeCategory.REDSTONE, ModBlocks.RUBY_PRESSURE_PLATE, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_PRESSURE_PLATE)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.RUBY_PRESSURE_PLATE)));;
 
         createFenceRecipe(ModBlocks.RUBY_FENCE, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_FENCE)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.RUBY_FENCE)));
 
         createFenceGateRecipe(ModBlocks.RUBY_FENCE_GATE, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_FENCE_GATE)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.RUBY_FENCE_GATE)));
 
         offerWallRecipe(exporter, RecipeCategory.MISC, ModBlocks.RUBY_WALL, ModItems.RUBY);
 
         createDoorRecipe(ModBlocks.RUBY_DOOR, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_DOOR)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.RUBY_DOOR)));
 
         createTrapdoorRecipe(ModBlocks.RUBY_TRAPDOOR, Ingredient.ofItems(ModItems.RUBY))
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RUBY_TRAPDOOR)));
+                .offerTo(exporter, new Identifier(FirstMod.MOD_ID, getRecipeName(ModBlocks.RUBY_TRAPDOOR)));
     }
 }

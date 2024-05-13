@@ -29,6 +29,17 @@ public class ModItemGroup {
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModBlocks.SOUND_BLOCK);
 
+                        entries.add(ModItems.RUBY_PICKAXE);
+                        entries.add(ModItems.RUBY_AXE);
+                        entries.add(ModItems.RUBY_SHOVEL);
+                        entries.add(ModItems.RUBY_SWORD);
+                        entries.add(ModItems.RUBY_HOE);
+
+                        entries.add(ModItems.RUBY_HELMET);
+                        entries.add(ModItems.RUBY_CHESTPLATE);
+                        entries.add(ModItems.RUBY_LEGGINGS);
+                        entries.add(ModItems.RUBY_BOOTS);
+
                         entries.add(ModItems.COAL_BRIQUETTE);
 
                         entries.add(ModBlocks.RUBY_STAIRS);
