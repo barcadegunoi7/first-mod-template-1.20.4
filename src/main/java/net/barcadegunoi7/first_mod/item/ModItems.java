@@ -14,7 +14,7 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
-    public static final Item VIRUS_INGOT = registerItem("virus_ingot", new Item(new FabricItemSettings()));
+    public static final Item VIRUS_INGOT = registerItem("virus_ingot", new VirusIngot(new FabricItemSettings()));
     public static final Item RAW_VIRUS = registerItem("raw_virus", new RawVirus(new FabricItemSettings()));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
@@ -33,13 +33,13 @@ public class ModItems {
             new HoeItem(ModToolMaterial.RUBY, 2, 1f, new FabricItemSettings()));
 
     public static final Item RUBY_HELMET = registerItem("ruby_helmet",
-            new ArmorItem(ModArmorMaterial.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item RUBY_CHESTPLATE = registerItem("ruby_chestplate",
-            new ArmorItem(ModArmorMaterial.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings",
-            new ArmorItem(ModArmorMaterial.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots",
-            new ArmorItem(ModArmorMaterial.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
 
