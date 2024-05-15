@@ -27,9 +27,10 @@ public class VirusIngot extends Item {
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         if (!entity.getWorld().isClient && entity instanceof PlayerEntity player) {
-            boolean hasPlayerEffect = player.hasStatusEffect(StatusEffects.POISON);
-            if (!hasPlayerEffect) {
-                player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 40, 0));
+            boolean hasproPlayerEffect = player.hasStatusEffect(StatusEffects.POISON);
+            boolean hasconPlayerEffect = player.hasStatusEffect(StatusEffects.RESISTANCE);
+            if (!hasproPlayerEffect && !hasconPlayerEffect) {
+                player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 40, 0, false, false, false));
             }
         }
         super.inventoryTick(stack, world, entity, slot, selected);

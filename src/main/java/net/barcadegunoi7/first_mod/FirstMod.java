@@ -5,6 +5,7 @@ import net.barcadegunoi7.first_mod.item.ModFuelComponents;
 import net.barcadegunoi7.first_mod.item.ModItemGroup;
 import net.barcadegunoi7.first_mod.item.ModItems;
 import net.barcadegunoi7.first_mod.sound.ModSounds;
+import net.barcadegunoi7.first_mod.util.ModLootTableModifier;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -25,5 +26,7 @@ public class FirstMod implements ModInitializer {
 		ModFuelComponents.registerFuelComponents();
 
 		ModSounds.registerSounds();
+
+		ModLootTableModifier.modifyLootTables();
 	}
 }

@@ -1,6 +1,7 @@
 package net.barcadegunoi7.first_mod.datagen;
 
 import net.barcadegunoi7.first_mod.block.ModBlocks;
+import net.barcadegunoi7.first_mod.block.custom.TomatoCropBlock;
 import net.barcadegunoi7.first_mod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -33,6 +34,8 @@ public class ModModelProvider extends FabricModelProvider {
         rubyPool.wall(ModBlocks.RUBY_WALL);
         blockStateModelGenerator.registerDoor(ModBlocks.RUBY_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.RUBY_TRAPDOOR);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3, 4, 5);
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.VIRUS_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_VIRUS_ORE);

@@ -2,6 +2,7 @@ package net.barcadegunoi7.first_mod.block;
 
 import net.barcadegunoi7.first_mod.FirstMod;
 import net.barcadegunoi7.first_mod.block.custom.SoundBlock;
+import net.barcadegunoi7.first_mod.block.custom.TomatoCropBlock;
 import net.barcadegunoi7.first_mod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -59,6 +60,9 @@ public class ModBlocks {
             new DoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
             new TrapdoorBlock(BlockSetType.IRON, FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
+    public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(FirstMod.MOD_ID, "tomato_crop"),
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

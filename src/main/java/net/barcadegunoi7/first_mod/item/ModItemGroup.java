@@ -28,6 +28,7 @@ public class ModItemGroup {
                         entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.RUBY_STAFF);
                         entries.add(ModBlocks.SOUND_BLOCK);
+                        entries.add(ModItems.TOMATO_SEEDS);
 
                         entries.add(ModItems.RUBY_PICKAXE);
                         entries.add(ModItems.RUBY_AXE);
