@@ -23,7 +23,13 @@
   "item.first_mod.metal_detector": "Metal Detector",
   "item.first_mod.ruby_staff": "Ruby Staff",
   "block.first_mod.sound_block": "SoundBlock",
+  "item.first_mod.tomato": "Tomato",
   "item.first_mod.tomato_seeds": "Tomato Seeds",
+  "item.first_mod.corn": "Corn",
+  "item.first_mod.corn_seeds": "Corn Seeds",
+  "block.first_mod.dahlia": "Dahlia",
+
+  "entity.minecraft.villager.sound_master": "Soundmaster",
 
   "item.first_mod.ruby_pickaxe": "Ruby Pickaxe",
   "item.first_mod.ruby_axe": "Ruby Axe",
@@ -41,7 +47,6 @@
   "item.first_mod.virus_ingot": "Virus Ingot",
   "item.first_mod.raw_virus": "Raw Virus",
 
-  "item.first_mod.tomato": "Tomato",
 
   "item.first_mod.coal_briquette": "Coal Briquette",
 

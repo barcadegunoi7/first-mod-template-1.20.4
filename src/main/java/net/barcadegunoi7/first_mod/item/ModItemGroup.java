@@ -30,6 +30,11 @@ public class ModItemGroup {
                         entries.add(ModBlocks.SOUND_BLOCK);
                         entries.add(ModItems.TOMATO_SEEDS);
 
+                        entries.add(ModBlocks.DAHLIA);
+
+                        entries.add(ModItems.CORN_SEEDS);
+                        entries.add(ModItems.CORN);
+
                         entries.add(ModItems.RUBY_PICKAXE);
                         entries.add(ModItems.RUBY_AXE);
                         entries.add(ModItems.RUBY_SHOVEL);
