@@ -46,5 +46,13 @@
     "sounds": [
       "first_mod:flatbed_freestyle"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "first_mod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

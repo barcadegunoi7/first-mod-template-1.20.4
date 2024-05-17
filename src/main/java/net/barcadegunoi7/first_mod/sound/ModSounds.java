@@ -20,6 +20,8 @@ public class ModSounds {
     public static final SoundEvent BLUNT_SMOKED = registerSoundEvent("bag_un_blunt");
     public static final SoundEvent FLATBED_FREESTYLE = registerSoundEvent("flatbed_freestyle");
 
+    public static final SoundEvent BAR_BRAWL = registerSoundEvent("bar_brawl");
+
     public static final BlockSoundGroup SOUND_BLOCK_SOUNDS = new BlockSoundGroup(1f, 4f,
             ModSounds.SOUND_BLOCK_BREAK, ModSounds.SOUND_BLOCK_STEP, ModSounds.SOUND_BLOCK_PLACE,
             ModSounds.SOUND_BLOCK_HIT, ModSounds.SOUND_BLOCK_FALL);

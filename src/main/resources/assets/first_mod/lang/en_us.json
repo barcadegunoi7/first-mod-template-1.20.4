@@ -28,6 +28,10 @@
   "item.first_mod.corn": "Corn",
   "item.first_mod.corn_seeds": "Corn Seeds",
   "block.first_mod.dahlia": "Dahlia",
+  "item.first_mod.coal_briquette": "Coal Briquette",
+
+  "item.first_mod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.first_mod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
 
   "entity.minecraft.villager.sound_master": "Soundmaster",
 
@@ -46,9 +50,6 @@
   "block.first_mod.deepslate_virus_ore": "Deepslate Virus Ore",
   "item.first_mod.virus_ingot": "Virus Ingot",
   "item.first_mod.raw_virus": "Raw Virus",
-
-
-  "item.first_mod.coal_briquette": "Coal Briquette",
 
   "tooltip.first_mod.metal_detector": "Helps you find Valuables underground",
   "tooltip.first_mod.sound_block": "Makes a little sound when right-clicked",

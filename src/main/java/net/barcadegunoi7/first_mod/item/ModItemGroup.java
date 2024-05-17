@@ -31,6 +31,7 @@ public class ModItemGroup {
                         entries.add(ModItems.TOMATO_SEEDS);
 
                         entries.add(ModBlocks.DAHLIA);
+                        entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
 
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.CORN);

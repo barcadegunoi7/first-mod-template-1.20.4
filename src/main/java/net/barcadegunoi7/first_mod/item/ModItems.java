@@ -3,6 +3,7 @@ package net.barcadegunoi7.first_mod.item;
 import net.barcadegunoi7.first_mod.FirstMod;
 import net.barcadegunoi7.first_mod.block.ModBlocks;
 import net.barcadegunoi7.first_mod.item.custom.*;
+import net.barcadegunoi7.first_mod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -51,6 +52,9 @@ public class ModItems {
     public static final Item CORN = registerItem("corn", new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
 
     public static final Item COAL_BRIQUETTE = registerItem("coal_briquette", new Item(new FabricItemSettings()));
+
+    public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
+            new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
 
     public static final Item LEAN_BUCKET = registerItem("lean_bucket", new LeanBucket(new FabricItemSettings().food(ModFoodComponents.LEAN_BUCKET).maxCount(1)));
     public static final Item BLUNT = registerItem("blunt", new Blunt(new FabricItemSettings().food(ModFoodComponents.BLUNT)));
