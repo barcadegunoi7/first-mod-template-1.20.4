@@ -2,6 +2,7 @@ package net.barcadegunoi7.first_mod.item;
 
 import net.barcadegunoi7.first_mod.FirstMod;
 import net.barcadegunoi7.first_mod.block.ModBlocks;
+import net.barcadegunoi7.first_mod.entity.ModEntities;
 import net.barcadegunoi7.first_mod.item.custom.*;
 import net.barcadegunoi7.first_mod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -55,6 +56,9 @@ public class ModItems {
 
     public static final Item BAR_BRAWL_MUSIC_DISC = registerItem("bar_brawl_music_disc",
             new MusicDiscItem(7, ModSounds.BAR_BRAWL, new FabricItemSettings().maxCount(1), 122));
+
+    public static final Item PORCUPINE_SPAWN_EGG = registerItem("porcupine_spawn_egg",
+            new SpawnEggItem(ModEntities.PORCUPINE, 0xa86518, 0x3b260f, new FabricItemSettings()));
 
     public static final Item LEAN_BUCKET = registerItem("lean_bucket", new LeanBucket(new FabricItemSettings().food(ModFoodComponents.LEAN_BUCKET).maxCount(1)));
     public static final Item BLUNT = registerItem("blunt", new Blunt(new FabricItemSettings().food(ModFoodComponents.BLUNT)));
