@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "first_mod:soundpoi",
+      "required": false
+    }
+  ]
+}

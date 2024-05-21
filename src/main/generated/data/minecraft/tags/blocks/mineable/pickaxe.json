@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "first_mod:raw_ruby_block",
+    "first_mod:ruby_ore",
+    "first_mod:ruby_block",
+    "first_mod:nether_ruby_ore",
+    "first_mod:deepslate_ruby_ore",
+    "first_mod:end_stone_ruby_ore",
+    "first_mod:sound_block",
+    "first_mod:virus_ore",
+    "first_mod:deepslate_virus_ore",
+    "first_mod:ruby_stairs",
+    "first_mod:ruby_slab",
+    "first_mod:ruby_button",
+    "first_mod:ruby_pressure_plate",
+    "first_mod:ruby_fence",
+    "first_mod:ruby_fence_gate",
+    "first_mod:ruby_wall",
+    "first_mod:ruby_door",
+    "first_mod:ruby_trapdoor"
+  ]
+}
