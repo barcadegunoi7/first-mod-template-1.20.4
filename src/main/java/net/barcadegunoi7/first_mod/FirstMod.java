@@ -1,11 +1,13 @@
 package net.barcadegunoi7.first_mod;
 
 import net.barcadegunoi7.first_mod.block.ModBlocks;
+import net.barcadegunoi7.first_mod.block.entity.ModBlockEntities;
 import net.barcadegunoi7.first_mod.entity.ModEntities;
 import net.barcadegunoi7.first_mod.entity.custom.PorcupineEntity;
 import net.barcadegunoi7.first_mod.item.ModFuelComponents;
 import net.barcadegunoi7.first_mod.item.ModItemGroup;
 import net.barcadegunoi7.first_mod.item.ModItems;
+import net.barcadegunoi7.first_mod.screen.ModScreenHandlers;
 import net.barcadegunoi7.first_mod.sound.ModSounds;
 import net.barcadegunoi7.first_mod.util.ModCustomTrades;
 import net.barcadegunoi7.first_mod.util.ModLootTableModifier;
@@ -13,7 +15,6 @@ import net.barcadegunoi7.first_mod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
-import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -37,6 +38,9 @@ public class FirstMod implements ModInitializer {
 
 		ModLootTableModifier.modifyLootTables();
 		ModEntities.registerModEntities();
+
+		ModBlockEntities.registerBlockEntites();
+		ModScreenHandlers.registerScreenHandlers();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}

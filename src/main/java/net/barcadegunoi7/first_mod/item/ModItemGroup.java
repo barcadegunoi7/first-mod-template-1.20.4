@@ -33,6 +33,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DAHLIA);
                         entries.add(ModItems.BAR_BRAWL_MUSIC_DISC);
                         entries.add(ModItems.PORCUPINE_SPAWN_EGG);
+                        entries.add(ModBlocks.GEM_POLISHING_STATION);
 
                         entries.add(ModItems.CORN_SEEDS);
                         entries.add(ModItems.CORN);

@@ -35,6 +35,9 @@
 
   "item.first_mod.porcupine_spawn_egg": "Porcupine Spawn Egg",
 
+  "block.first_mod.gem_polishing_station": "Gem Polishing Station",
+  "block.entity.first_mod.polish_gui": "Gem Polishing Station",
+
   "entity.minecraft.villager.sound_master": "Soundmaster",
 
   "item.first_mod.ruby_pickaxe": "Ruby Pickaxe",
