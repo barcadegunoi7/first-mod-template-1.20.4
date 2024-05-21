@@ -1,4 +1,4 @@
-// 1.20.4	2024-05-21T12:47:29.0755363	First Mod/Block Loot Tables
+// 1.20.4	2024-05-21T21:59:59.2814883	First Mod/Block Loot Tables
 09503a0e973d71a9d3e511a5416a1dc68c0d7080 data\first_mod\loot_tables\blocks\ruby_button.json
 229442881530fba2c19a937d79933de19c6c642d data\first_mod\loot_tables\blocks\ruby_wall.json
 d605149cda26852c2ad960f3aead5dd82f7ce201 data\first_mod\loot_tables\blocks\virus_ore.json
@@ -16,8 +16,8 @@ f56ce6544f337cafa1d1846f7b4a0d9b4923c19b data\first_mod\loot_tables\blocks\ruby_
 ce3d9f839c27d9543f15acde3c275fa8afa6ccdb data\first_mod\loot_tables\blocks\end_stone_ruby_ore.json
 338406bce7c35d728014634c302b8d729215c815 data\first_mod\loot_tables\blocks\nether_ruby_ore.json
 9afec92f6adeec320458099d28ac49574a91ef2d data\first_mod\loot_tables\blocks\ruby_fence.json
-a3be47f5367ffca09fd619d784b378107ae09a39 data\first_mod\loot_tables\blocks\ruby_pressure_plate.json
 8bcbd3a52cbf2d98144fe1b0442dd46b8962d2d5 data\first_mod\loot_tables\blocks\dahlia.json
+a3be47f5367ffca09fd619d784b378107ae09a39 data\first_mod\loot_tables\blocks\ruby_pressure_plate.json
 04cfde5c617845fbfcae0e820d0d354c0368076a data\first_mod\loot_tables\blocks\ruby_block.json
 89c048fe89af4b46f86e73a54c45479ccdb60a7c data\first_mod\loot_tables\blocks\ruby_fence_gate.json
 6d7a5ee9734b7cc4c29b1b4da0d22207cdad66ec data\first_mod\loot_tables\blocks\ruby_trapdoor.json

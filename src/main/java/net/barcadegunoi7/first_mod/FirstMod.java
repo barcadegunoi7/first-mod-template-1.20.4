@@ -7,6 +7,7 @@ import net.barcadegunoi7.first_mod.entity.custom.PorcupineEntity;
 import net.barcadegunoi7.first_mod.item.ModFuelComponents;
 import net.barcadegunoi7.first_mod.item.ModItemGroup;
 import net.barcadegunoi7.first_mod.item.ModItems;
+import net.barcadegunoi7.first_mod.recipe.ModRecipes;
 import net.barcadegunoi7.first_mod.screen.ModScreenHandlers;
 import net.barcadegunoi7.first_mod.sound.ModSounds;
 import net.barcadegunoi7.first_mod.util.ModCustomTrades;
@@ -41,6 +42,8 @@ public class FirstMod implements ModInitializer {
 
 		ModBlockEntities.registerBlockEntites();
 		ModScreenHandlers.registerScreenHandlers();
+
+		ModRecipes.registerRecipes();
 
 		FabricDefaultAttributeRegistry.register(ModEntities.PORCUPINE, PorcupineEntity.createPorcupineAttributes());
 	}

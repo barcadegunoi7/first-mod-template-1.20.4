@@ -1,0 +1,12 @@
+{
+  "type": "first_mod:gem_polishing",
+  "ingredients": [
+    {
+      "item": "first_mod:raw_ruby"
+    }
+  ],
+  "output": {
+    "item": "first_mod:ruby",
+    "count": 3
+  }
+}
