@@ -24,6 +24,9 @@
 		],
 		"fabric-datagen": [
 			"net.barcadegunoi7.first_mod.FirstModDataGenerator"
+		],
+		"rei_client": [
+			"net.barcadegunoi7.first_mod.compat.FirstModREIClientPlugin"
 		]
 	},
 	"mixins": [
