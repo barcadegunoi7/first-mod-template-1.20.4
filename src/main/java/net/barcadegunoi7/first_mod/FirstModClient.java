@@ -1,10 +1,10 @@
 package net.barcadegunoi7.first_mod;
 
 import net.barcadegunoi7.first_mod.block.ModBlocks;
+import net.barcadegunoi7.first_mod.block.entity.ModBlockEntities;
+import net.barcadegunoi7.first_mod.block.entity.renderer.GemPolishingBlockEntityRenderer;
 import net.barcadegunoi7.first_mod.entity.ModEntities;
-import net.barcadegunoi7.first_mod.entity.client.ModModelLayers;
-import net.barcadegunoi7.first_mod.entity.client.PorcupineModel;
-import net.barcadegunoi7.first_mod.entity.client.PorcupineRenderer;
+import net.barcadegunoi7.first_mod.entity.client.*;
 import net.barcadegunoi7.first_mod.screen.GemPolishingScreen;
 import net.barcadegunoi7.first_mod.screen.ModScreenHandlers;
 import net.fabricmc.api.ClientModInitializer;
@@ -13,6 +13,7 @@ import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.block.entity.BlockEntityRendererFactories;
 
 public class FirstModClient implements ClientModInitializer {
     @Override
@@ -29,5 +30,7 @@ public class FirstModClient implements ClientModInitializer {
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PORCUPINE, PorcupineModel::getTexturedModelData);
 
         HandledScreens.register(ModScreenHandlers.GEM_POLISHING_SCREEN_HANDLER, GemPolishingScreen::new);
+
+        BlockEntityRendererFactories.register(ModBlockEntities.GEM_POLISHING_STATION_BLOCK_ENTITY, GemPolishingBlockEntityRenderer::new);
     }
 }

@@ -1,7 +1,6 @@
 package net.barcadegunoi7.first_mod.datagen;
 
 import net.barcadegunoi7.first_mod.block.ModBlocks;
-import net.barcadegunoi7.first_mod.block.custom.CornCropBlock;
 import net.barcadegunoi7.first_mod.block.custom.TomatoCropBlock;
 import net.barcadegunoi7.first_mod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -11,7 +10,6 @@ import net.minecraft.data.server.loottable.BlockLootTableGenerator;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootTable;
-import net.minecraft.loot.condition.AnyOfLootCondition;
 import net.minecraft.loot.condition.BlockStatePropertyLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
 import net.minecraft.loot.entry.LeafEntry;
